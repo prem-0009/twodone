@@ -1,0 +1,70 @@
+{
+  "todos": [
+    {
+      "text": "Christmas shopping",
+      "complete": true,
+      "priority": 1,
+      "id": 0
+    },
+    {
+      "text": "make doctor's appointment",
+      "complete": true,
+      "priority": 2,
+      "id": 1
+    },
+    {
+      "text": "binge watch The Office",
+      "complete": false,
+      "priority": 2,
+      "id": 2
+    },
+    {
+      "text": "research dinosaurs",
+      "complete": false,
+      "priority": 1,
+      "id": 3
+    },
+    {
+      "text": "fire Colin",
+      "complete": true,
+      "priority": 2,
+      "id": 4
+    },
+    {
+      "text": "start novel",
+      "complete": true,
+      "priority": 1,
+      "id": 5
+    },
+    {
+      "text": "start jogging",
+      "complete": true,
+      "priority": 1,
+      "id": 5
+    },
+    {
+      "text": "a",
+      "priority": 2,
+      "complete": false,
+      "id": 8
+    }
+    
+  ],
+  "users": [
+    {
+      "username": "mesuara",
+      "password": "il0vec0de",
+      "id": 0
+    },
+    {
+      "username": "abbreviatedman",
+      "password": "il0vec0de2",
+      "id": 1
+    },
+    {
+      "username": "dantheman",
+      "password": "iamhe23",
+      "id": 2
+    }
+  ]
+}

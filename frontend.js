@@ -51,7 +51,8 @@ const refreshTodos = function() {
 }
 
 
-document.querySelector('.add-todo').addEventListener('click', function() {
+document.querySelector('.add-todo').addEventListener('click', function(event) {
+
   const inputBox = document.querySelector('.todo-input');
   const todo = {
     text: inputBox.value,
@@ -59,9 +60,12 @@ document.querySelector('.add-todo').addEventListener('click', function() {
     complete: false,
     id: todos.length,
   }
-
+  
+  
   addTodo(todo);
   printTodo(todo);
+  postTodo(todo)
   inputBox.value = '';
+
 })
 
